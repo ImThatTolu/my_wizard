@@ -1,0 +1,5 @@
+name: My Wizard
+type: module
+description: Provides wizards.
+package: Custom
+core: 8.x

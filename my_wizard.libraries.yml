@@ -1,0 +1,16 @@
+my_wizard:
+  version: 0.1
+  js:
+    # Core.
+    js/script.js: {}
+    # Models.
+    js/models/WizardModel.js: {}
+    # Views.
+    js/views/WizardView.js: {}
+  dependencies:
+    - core/drupal
+    - core/backbone
+    - core/jquery
+    - core/jquery.once
+    - core/matchmedia
+    - core/matchmedia.addListener

@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Main functions of the module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function my_wizard_theme() {
+  return [
+    'my_wizard' => [
+      'variables' => [
+        'pages' => [],
+      ],
+      'template' => 'my-wizard',
+    ],
+  ];
+}
